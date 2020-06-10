@@ -3,7 +3,7 @@
 		<div v-if="!$store.state.loaded" id="loadingDiv">
 			<p>
 				Babel
-				<br />between us
+				<br />Between Us
 			</p>
 			<p>Loading...</p>
 		</div>

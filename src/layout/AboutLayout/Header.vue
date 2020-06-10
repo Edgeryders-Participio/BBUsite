@@ -1,7 +1,7 @@
 <template>
   <b-row>
     <b-col md="6" sm="12" class="col">
-      <h1 @click="handleMoveAbout()">Babel between US</h1>
+      <h1 @click="handleMoveAbout()">Babel Between Us</h1>
     </b-col>
     <b-col md="6" sm="12" class="col">
       <div class="nav">

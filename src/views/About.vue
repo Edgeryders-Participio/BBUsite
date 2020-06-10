@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <img
-      src="https://images.squarespace-cdn.com/content/v1/5dfb4e77f844f40ff2c624f2/1576752601759-QLEB4ZK2ASUYJXPVWL5Q/ke17ZwdGBToddI8pDm48kLbG6R0rcBhWjROiZCOh_5F7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UWC13EWYIWSRzAbX771QuUKIuWOe62sE3waH_l-3VcA1W07ycm2Trb21kYhaLJjddA/tav22.png"
+      src="https://bbu.world/uploads/babelbetweenus/original/1X/d148a656cefb8fec73359e0a16e50fcac57628d3.jpeg"
     />
     <p v-for="(about, index) in abouts" :key="index">{{about}}</p>
     <h2>Image by Sune Skote, Fornvårdar, 1950</h2>

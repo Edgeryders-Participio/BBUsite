@@ -14,14 +14,15 @@ export default {
   data() {
     return {
       abouts: [
-        `Babel Between Us is a cartographic visualization of a collaboratively created fiction, 
-          exploring the uncharted waters between collaboration, language and ethnography.`,
+        `Babel Between Us is a cartographic visualization of a collaboratively created world, 
+          exploring the uncharted waters between collaboration, fiction and ethnography.`,
         `A group of 18 writers collectively improvise a story on an online forum during an extensive amount of time. 
           The resulting fiction is analyzed by a team of ethnographers and presented as an interactive map. 
           This map is then presented back to the group throughout the process. 
           The final map is presented in itself as an entry point for the general public to experience the work.`,
-        `The project is currently ongoing, follow us on twitter for recurring update.`,
-        `If you have any questions contact us on our forum, at team [at] bbu.world.`
+        `The project is currently ongoing. This site lets you read the texts produced by the writers, the ethnographic part will be added eventually. Follow us on twitter for recurring updates.`,
+        `If you have any questions contact us on our forum, or at team [at] bbu.world.`,
+        `Babel between us is created by Ola Claësson, Jennifer McGeachie, Filip Nyström, Alja Gudžević, Hugi Ásgeirsson and Jakob Skote, in collaboration with Blivande and Edgeryders, and with funding from Kulturbryggan.`
       ]
     };
   }

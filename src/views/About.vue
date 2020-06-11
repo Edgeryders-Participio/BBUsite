@@ -20,9 +20,9 @@ export default {
           The resulting fiction is analyzed by a team of ethnographers and presented as an interactive map. 
           This map is then presented back to the group throughout the process. 
           The final map is presented in itself as an entry point for the general public to experience the work.`,
-        `The project is currently ongoing. This site lets you read the texts produced by the writers, the ethnographic part will be added eventually. Follow us on twitter for recurring updates.`,
-        `If you have any questions contact us on our forum, or at team [at] bbu.world.`,
-        `Babel between us is created by Ola Claësson, Jennifer McGeachie, Filip Nyström, Alja Gudžević, Hugi Ásgeirsson and Jakob Skote, in collaboration with Blivande and Edgeryders, and with funding from Kulturbryggan.`
+        `The project is currently ongoing. This site lets you read the texts produced by the writers, the ethnographic part will be added eventually. Follow us on <a href="https://twitter.com/babelbetweenus">twitter</a> for recurring updates.`,
+        `If you have any questions contact us on <a href="https://bbu.world/">our forum</a>, or at team [at] bbu.world.`,
+        `Babel between us is created by Ola Claësson, Jennifer McGeachie, Filip Nyström, Alja Gudžević, Hugi Ásgeirsson and Jakob Skote, in collaboration with <a href="https://www.blivande.com/">Blivande</a> and <a href="https://edgeryders.eu/">Edgeryders</a>, and with funding from <a href="https://www.konstnarsnamnden.se/Kulturbryggan/">Kulturbryggan</a>.`
       ]
     };
   }

@@ -31,7 +31,7 @@ h1:hover {
   cursor: pointer;
 }
 a {
-  color: #111111;
+  color: #111111 !important;
   font-size: 14px;
 }
 a:hover {

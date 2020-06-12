@@ -3,7 +3,7 @@
     <img
       src="https://bbu.world/uploads/babelbetweenus/original/1X/d148a656cefb8fec73359e0a16e50fcac57628d3.jpeg"
     />
-    <p v-for="(about, index) in abouts" :key="index">{{about}}</p>
+    <div id="about-text" />
     <h2>Image by Sune Skote, Fornvårdar, 1950</h2>
   </div>
 </template>
@@ -22,9 +22,22 @@ export default {
           The final map is presented in itself as an entry point for the general public to experience the work.`,
         `The project is currently ongoing. This site lets you read the texts produced by the writers, the ethnographic part will be added eventually. Follow us on <a href="https://twitter.com/babelbetweenus">twitter</a> for recurring updates.`,
         `If you have any questions contact us on <a href="https://bbu.world/">our forum</a>, or at team [at] bbu.world.`,
-        `Babel between us is created by Ola Claësson, Jennifer McGeachie, Filip Nyström, Alja Gudžević, Hugi Ásgeirsson and Jakob Skote, in collaboration with <a href="https://www.blivande.com/">Blivande</a> and <a href="https://edgeryders.eu/">Edgeryders</a>, and with funding from <a href="https://www.konstnarsnamnden.se/Kulturbryggan/">Kulturbryggan</a>.`
+        `Babel between us is led by Ola Claësson, Jennifer McGeachie, Filip Nyström, Alja Gudžević, Amelia Hassoun, Hugi Ásgeirsson and Jakob Skote. Our ethnographic team is Bojan Mucko, Lea Vene, Jakob Skote and Hugi Asgeirsson with Amelia Hassoun as the senior ethnography and research advisor. Jim Segevid developed the Babel Reader software. Our 18 writers remain anonymous. Babel Between Us is a collaboration with with <a href="https://www.blivande.com/">Blivande</a> and <a href="https://edgeryders.eu/">Edgeryders</a>, and with funding from <a href="https://www.konstnarsnamnden.se/Kulturbryggan/">Kulturbryggan</a>.`
       ]
     };
+  },
+  mounted() {
+    this.abouts.map(about => {
+      document.getElementById("about-text").innerHTML +=
+        `<p
+          style="text-align: left;
+          margin-bottom: 40px;
+          font-size: 18px;
+          line-height: 1.6em;"
+        >` +
+        about +
+        `</p>`;
+    });
   }
 };
 </script>
@@ -35,12 +48,6 @@ export default {
 }
 img {
   width: 95%;
-}
-p {
-  text-align: left;
-  margin-bottom: 40px;
-  font-size: 18px;
-  line-height: 1.6em;
 }
 h2 {
   text-align: left;

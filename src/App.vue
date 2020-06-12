@@ -24,9 +24,9 @@ export default {
 				}
 			);
 			data = await data.json();
-			// sort the data by created_at
+			// sort the data by bumped_at
 			data = data.sort((a, b) =>
-				this.getTimeStamp(a.created_at) - this.getTimeStamp(b.created_at) < 0 ? 1 : -1
+				this.getTimeStamp(a.bumped_at) - this.getTimeStamp(b.bumped_at) < 0 ? 1 : -1
 			);
 			{/* prettier-ignore */}
 			data = await data.map((e) => {

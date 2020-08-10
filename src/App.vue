@@ -16,7 +16,7 @@ export default {
     // get the stories when page is loaded at first
     (async () => {
       let data = await fetch(
-        'https://bbu.world/webkit_components/topics.json?tags=ethno-bbu&per=500&serializer=event'
+        'https://bbu.world/webkit_components/topics.json?tags=ethno-bbu&per=500&serializer=event',
         {
           method: "get"
         }

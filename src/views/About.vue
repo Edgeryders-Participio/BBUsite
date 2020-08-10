@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <img
-      src="https://bbu.world/uploads/babelbetweenus/original/1X/d148a656cefb8fec73359e0a16e50fcac57628d3.jpeg"
+      src="https://bbu.world/uploads/babelbetweenus/original/1X/2419a3ca2f75e9799d4915bd692d65a776b8e889.jpeg"
     />
     <div id="about-text" />
     <h2>Image by Sune Skote, Fornvårdar, 1950</h2>

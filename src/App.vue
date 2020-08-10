@@ -15,10 +15,8 @@ export default {
 	mounted() {
 		// get the stories when page is loaded at first
 		(async () => {
-			const proxy = 'https://cors-anywhere.herokuapp.com/';
-			// fetch the stories from the api
 			let data = await fetch(
-				`${proxy}https://bbu.world/webkit_components/topics.json?tags=ethno-bbu&per=500&serializer=event`,
+				'https://bbu.world/webkit_components/topics.json?tags=ethno-bbu&per=500&serializer=event',
 				{
 					method: 'get',
 				}
